@@ -1,0 +1,69 @@
+# Blender MTL File: 'level_final.blend'
+# Material Count: 7
+
+newmtl deadendfloor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump deadend_norm.tga
+map_Kd deadend_diff.tga
+
+newmtl lrfloor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump lrfloor_norm.tga
+map_Kd lrfloor_diff.tga
+
+newmtl mfloor_d
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump mrfp_normal.tga
+map_Kd mrfp_diffuse.tga
+
+newmtl mfloor_d_mrfp_diffuse.tga
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd mrfp_diffuse.tga
+map_Bump mrfp_normal.tga
+
+newmtl mrwalls2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd halfheight_d.tga
+map_Bump halfheight_n2.tga
+
+
+newmtl widehallfloor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump whall_norm.tga
+map_Kd whall_diff.tga

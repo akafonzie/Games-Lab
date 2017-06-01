@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{21b3b9fd-70a6-44a5-ada0-d244fb286b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Oculus">
+      <UniqueIdentifier>{526caed3-af79-4343-9316-a8063d6f8e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters">
+      <UniqueIdentifier>{0a72dc66-9cdc-43d9-8e92-5693eccc4e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper Classes">
+      <UniqueIdentifier>{615c89dc-47c2-4bda-89cb-3a9bc6593432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Loader">
+      <UniqueIdentifier>{a2299b81-0b12-4c14-9746-8b7992b339e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="The Level">
+      <UniqueIdentifier>{978c4692-0872-4098-90af-66e787e844b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{adc4d221-a9af-4efd-8c6c-532686ae7288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions">
+      <UniqueIdentifier>{901eb34d-214a-48e8-a7fc-c918d3d853d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="oculus.cpp">
+      <Filter>Oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="gamePad.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3f.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix4x4.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="modelLoader.cpp">
+      <Filter>Model Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>The Level</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ppf.cpp">
+      <Filter>Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="oculus.h">
+      <Filter>Oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3f.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ppf.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="gamePad.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix4x4.h">
+      <Filter>Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="modelLoader.h">
+      <Filter>Model Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>The Level</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\dasfrag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\dasvert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\ocFrag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\ocVert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\debugfrag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\debugvert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\screensFrag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\screensVert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

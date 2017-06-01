@@ -1,0 +1,4 @@
+This could be due to using debug libs and dlls so ensure you are building and running in debug and not release. 
+
+If you need to do release the relevant libs/dlls will need to be overwritten
+
